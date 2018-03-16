@@ -5,6 +5,11 @@ header {
   background-size: cover;
 }
 
+footer {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
 li {
   text-align: left;
 }
@@ -16,6 +21,11 @@ footer {
 #header-contents {
   margin-left: auto;
   margin-right: auto;
+}
+
+#contact-list {
+  list-style: none;
+  text-align: left;
 }
 
 .jump-to-list {
@@ -77,6 +87,8 @@ footer {
 .pumpkin-spice {
   color: rgb(253, 151, 31);
 }
+
+
 
 @media screen and (max-width: 530px) {
   #title {
