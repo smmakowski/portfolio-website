@@ -33,6 +33,34 @@ li {
   width: 80%;
 }
 
+/*
+  MONOKAI STLYE COLOR CLASES
+  FROM: http://www.colourlovers.com/palette/1718713/Monokai
+*/
+
+.sundried-clay {
+  color: rgb(39, 40, 34);
+}
+
+.orchid {
+  color: rgb(249, 38, 114);
+}
+
+.bounded-rationality {
+  color: rgb(102, 217, 239);
+}
+
+.bg-bounded-rationality { /* background color for bounded rationality */
+  background-color: rgb(102, 217, 239);
+}
+
+.henn1nk {
+  color: rgb(166, 226, 46);
+}
+
+.pumpkin-spice {
+  color: rgb(253, 151, 31);
+}
 
 @media screen and (max-width: 530px) {
   #title {
