@@ -1,14 +1,16 @@
-body {
-  background-color: rgb(39,40,34);
-}
 header {
   background-image: url('../img/banner.png');
+  background-image-width: 100%
   background-position: center;
   background-size: cover;
 }
 
 li {
   text-align: left;
+}
+
+footer {
+  margin-bottom: 0;
 }
 
 #header-contents {
@@ -19,9 +21,11 @@ li {
 .jump-to-list {
   text-align: right;
 }
+
 .proj-img {
-  max-width: 150px;
+  max-width: 200px;
 }
+
 .proj {
   padding: 15px;
   margin: 15px;
@@ -29,6 +33,12 @@ li {
 
   box-shadow: 2px 2px 2px 2px black;
 }
+
+.skill {
+  text-shadow: text-shadow: 1px 1px #000000;
+  margin-left: 20px;
+}
+
 .skill-bar {
   width: 80%;
 }
@@ -40,6 +50,10 @@ li {
 
 .sundried-clay {
   color: rgb(39, 40, 34);
+}
+
+.bg-sundried-clay {
+  background-color: rgb(39,40,34);
 }
 
 .orchid {
